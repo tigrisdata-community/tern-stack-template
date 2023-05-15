@@ -1,6 +1,12 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./dist"
-  }
+    "outDir": "./dist",
+    "module": "commonjs"
+  },
+  "references": [
+    {
+      "path": "../../packages/shared/tsconfig.json"
+    }
+  ]
 }

@@ -1,0 +1,8 @@
+# testing
+/coverage
+
+# production
+/dist
+
+# build logs
+tsconfig.tsbuildinfo
